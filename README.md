@@ -73,3 +73,15 @@ docker run -p 9092:9092 \
   > Rakesh Mumbai
   > Rakesh Pune
 ```
+
+## Screenshots
+
+- 1 Consumer of usr-1 group subscribed to 2 partitions of 1 topic
+
+![SS1](https://github.com/telishreyas10/kafka-app/blob/main/assets/Kafka-SS1.PNG)
+
+- 2 Consumers of usr-1 group auto balanced subscription of partition for 1 topic
+![SS2](https://github.com/telishreyas10/kafka-app/blob/main/assets/Kafka-SS2.PNG)
+
+- 2 Consumers of usr-1 & 1 consumer of usr-2 group auto balanced subscription of partition for 1 topic
+![SS2](https://github.com/telishreyas10/kafka-app/blob/main/assets/Kafka-SS3.PNG)
